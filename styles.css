@@ -1,0 +1,179 @@
+body{
+    background-color: #070d30;
+    /* text-align: center; */
+}
+h1{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+img{
+    width: 8rem;
+}
+
+li{
+    font-family: 'Comfortaa', cursive;
+    color: #545058;
+}
+
+i{
+    color: aliceblue;
+}
+
+.heading{
+    margin: 10px 0px 10px;
+    padding: 10px 0px;
+}
+
+.input-grp{
+    width: 30vw;
+    margin: auto;
+}
+
+button i{
+    color: black;
+}
+
+.add-btn{
+    background-color: #fff;
+}
+
+.container{
+    /* for cross and check buttons */
+    position: relative;
+
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    text-align: center;
+}
+
+.list-group-item{
+    width: 30vw;
+    padding: 4px;
+    margin: 3px auto;
+    border-radius: 7px;
+}
+
+
+
+/* for javascript :  */
+/* checkbox */
+.check{
+    position: absolute;
+    left: 1rem;
+    margin-top: 3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    font-size: 10px;
+    padding-left: 1px;
+    text-align: center;
+}
+
+.checked{
+    background-color: #8843F2;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* close button */
+.close {
+    position: absolute;
+    top: 6px;
+    right: 2rem;
+    width: 1px;
+    height: 1px;
+    opacity: 0.3;
+}
+.close:hover {
+    opacity: 1;
+}
+.close::before, .close::after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.delete{
+    display: none;
+}
+
+
+/* media queries */
+@media (max-width : 905px){
+
+    img{
+        width: 7rem;
+    }
+    .input-grp{
+        width: 40vw;
+    }
+    .list-group-item{
+        width: 40vw;
+    }
+}
+
+@media (max-width : 605px){
+    img{
+        width : 6rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .input-grp{
+        width: 50vw;
+    }
+    .list-group-item{
+        width: 50vw;
+    }
+}
+
+@media (max-width : 450px){
+    img{
+        width : 5rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .heading{
+        margin: 13px 0px 13px;
+        padding: 13px 0px;
+    }
+    .input-grp{
+        width: 60vw;
+    }
+    .list-group-item{
+        width: 60vw;
+    }
+}
+
+@media (max-width : 330px){
+    img{
+        width : 5rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .input-grp{
+        width: 80vw;
+    }
+    .list-group-item{
+        width: 80vw;
+    }
+}
+
+
+
+
+
