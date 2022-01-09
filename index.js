@@ -69,10 +69,16 @@ function createListItem(){
         check.classList.add("check");
         
         cross.addEventListener("click", function(){
-            item.style.display = "none";
+            // item.style.display = "none";
+            item.classList.add("removed");
         });
         check.addEventListener("click", function(){
             item.classList.toggle("checked");
+        });
+
+        //for animation
+        item.addEventListener("transitionend", function(){
+            item.remove();
         });
         
         //append to list item and its styling:-
