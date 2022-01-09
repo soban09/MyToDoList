@@ -135,6 +135,19 @@ span{
     }
 }
 
+@media (max-width : 730px){
+
+    img{
+        width: 6.5rem;
+    }
+    .input-grp{
+        width: 55vw;
+    }
+    .list-group-item{
+        width: 55vw;
+    }
+}
+
 @media (max-width : 605px){
     img{
         width : 6rem;
@@ -143,10 +156,10 @@ span{
         font-size: 1.5rem;
     }
     .input-grp{
-        width: 50vw;
+        width: 70vw;
     }
     .list-group-item{
-        width: 50vw;
+        width: 70vw;
     }
 }
 
@@ -157,30 +170,11 @@ span{
     h1{
         font-size: 1.5rem;
     }
-    .heading{
-        margin: 13px 0px 13px;
-        padding: 13px 0px;
-    }
     .input-grp{
-        width: 60vw;
+        width: 85vw;
     }
     .list-group-item{
-        width: 60vw;
-    }
-}
-
-@media (max-width : 330px){
-    img{
-        width : 5rem;
-    }
-    h1{
-        font-size: 1.5rem;
-    }
-    .input-grp{
-        width: 80vw;
-    }
-    .list-group-item{
-        width: 80vw;
+        width: 85vw;
     }
 }
 
