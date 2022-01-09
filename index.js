@@ -69,11 +69,11 @@ function createListItem(){
         check.classList.add("check");
         
         cross.addEventListener("click", function(){
-            // item.style.display = "none";
             item.classList.add("removed");
         });
         check.addEventListener("click", function(){
             item.classList.toggle("checked");
+            span.classList.toggle("checked");
         });
 
         //for animation

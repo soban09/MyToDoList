@@ -85,6 +85,10 @@ span{
     text-decoration: line-through;
 }
 
+span .checked{
+    text-decoration: line-through;
+}
+
 /* close button */
 .close {
     position: absolute;
