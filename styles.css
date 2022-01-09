@@ -42,14 +42,14 @@ button i{
 
 .container{
     /* for cross and check buttons */
-    position: relative;
-
+    
     margin-top: 2rem;
     margin-bottom: 10rem;
     text-align: center;
 }
 
 .list-group-item{
+    position: relative;
     width: 30vw;
     padding: 4px;
     margin: 3px auto;
@@ -64,6 +64,7 @@ button i{
     position: absolute;
     left: 1rem;
     margin-top: 3px;
+    margin-right: 5px;
     width: 20px;
     height: 20px;
     border-radius: 4px;
