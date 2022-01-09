@@ -1,6 +1,5 @@
 body{
     background-color: #070d30;
-    /* text-align: center; */
 }
 h1{
     /* font-family: 'Montserrat', sans-serif; */
@@ -41,8 +40,6 @@ button i{
 }
 
 .container{
-    /* for cross and check buttons */
-    
     margin-top: 2rem;
     margin-bottom: 10rem;
     text-align: center;
@@ -56,13 +53,17 @@ button i{
     border-radius: 7px;
 }
 
+span{
+    width: 85%;
+    display: inline-block;
+}
 
 
 /* for javascript :  */
 /* checkbox */
 .check{
     position: absolute;
-    left: 1rem;
+    left: 0.5rem;
     margin-top: 3px;
     margin-right: 5px;
     width: 20px;
